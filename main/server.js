@@ -5,8 +5,8 @@ const PORT = process.env.PORT || 3000;
 // Clé secrète pour mettre à jour le lien — change-la !
 const UPDATE_SECRET = process.env.UPDATE_SECRET || 'IndieGabVR2024';
 
-// URL de l'ancien site Render (fallback quand le PC est hors ligne)
-const FALLBACK_URL = process.env.FALLBACK_URL || 'https://docspace-kdbo.onrender.com';
+// URL du serveur Fly.io (fallback quand le PC est hors ligne)
+const FALLBACK_URL = process.env.FALLBACK_URL || 'https://docspace.fly.dev';
 
 // Lien Cloudflare actuel (stocké en mémoire)
 let currentTunnelUrl = null;

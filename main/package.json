@@ -1,7 +1,7 @@
 {
-  "name": "docspace-render-proxy",
+  "name": "docspace-fly-proxy",
   "version": "1.0.0",
-  "description": "Proxy Render pour rediriger vers le serveur PC via Cloudflare Quick Tunnel",
+  "description": "Proxy Fly.io pour rediriger vers le serveur PC via Cloudflare Quick Tunnel",
   "main": "server.js",
   "engines": {
     "node": ">=16.0.0"
